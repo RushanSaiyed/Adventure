@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* For All Headings Use this
+font-family: 'Barlow Condensed', sans-serif;
+
+
+*/
+
+/* Header Section */
+header{
+    height: 100vh;
+    background-image: url('../images/banner.jpg');
+    background-position: center;
+    background-size: cover;
+}
+header .navbar .navbar-brand{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5PX;
+}
+header .navbar .custom-nav .nav-item a{
+    color: white;
+    font-weight: 500;
+    margin-right: 20px;
+}
+header .navbar .custom-nav .nav-item a:hover{
+  color: #ff2f8b;
+}
+
+header .navbar .head-btn{
+    background-color: transparent;
+    border: 1px solid white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+header .navbar .head-btn:hover{
+    border-color: #ff2f8b;
+    /* color: red; */
+}
+header .navbar .head-btn a{
+    color: white;
+    text-decoration: none;
+}
+header .navbar .head-btn a:hover{
+    color: #ff2f8b;
+}
+header .navbar .fa-search{
+    color: white;
+}
+header .head-text{
+    padding-top: 170px;
+}
+header .head-text p{
+    color: white;
+    font-family: sans-serif;
+}
+header .head-text h1{
+    font-size: 90px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+/* Offer Section */
+.offer-sec .head-para{
+    background-image: linear-gradient(to right, #ff2f8b, #9035f9);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: sans-serif;
+}
+.offer-sec h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 50px;
+}
+.offer-sec hr{
+    text-align: center;
+    margin-left: 45%;
+    height: 5px;
+    width: 100px;
+    background-image: linear-gradient(to right, #ff2f8b, #9035f9);
+    /* color: transparent; */
+}
+.offer-sec .card a{
+    text-decoration: none;
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.offer-sec .card-png{
+    background-color: #f7f9fd;
+    padding: 40px;
+}
+.offer-sec .card h4{
+    font-family: 'Jaldi', sans-serif;
+}
+.offer-sec .card p{
+    color: #777777;
+}
+.offer-sec .card{
+    box-shadow: 1px 2px 2px #777777;
+    transition: 0.5s;
+}
+.offer-sec .card:hover{
+    box-shadow: 1px 2px 10px #9035f9;
+    transition: 0.5s;
+}
+
+/* Real Time Adv */
+.real-time-adv .real-bg{
+    background-image: url(../images/orange.png);
+
+}
+.real-time-adv h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 60px;
+}
+.real-time-adv .org{
+    margin-top: -150px;
+    margin-bottom: -30px;
+}
+
+/* Famous trip */
+.famous-trip .famous-para{
+    background-image: linear-gradient(to right, #ff2f8b, #9035f9);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: sans-serif;
+}
+.famous-trip h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 50px;
+}
+.famous-trip hr{
+    text-align: center;
+    margin-left: 45%;
+    height: 5px;
+    width: 100px;
+    background-image: linear-gradient(to right, #ff2f8b, #9035f9);
+}
+.famous-trip .card .fa-location-arrow{
+    margin-right: 5px;
+    color: #777777;
+}
+.famous-trip .card span{
+    color: #777777; 
+}
+.famous-trip .card .fa-calendar{
+    margin-left: 15px;
+    margin-right: 5px;
+    color: #777777;
+}
+.famous-trip .card h5{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+}
+.famous-trip .card p{
+    color: #777777;
+}
+.famous-trip .card a{
+    text-decoration: none;
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.famous-trip .upper{
+    background-image: linear-gradient(to right, #ff2f8b, #9035f9);  
+    width: 90px;
+    padding-top: 10px;
+}
+.famous-trip .upper h3{
+    color: white;
+}
+.famous-trip .upper p{
+    color: white;
+}
+.famous-trip .card{
+    position: relative;
+    box-shadow: 1px 2px 2px #777777;
+    transition: 0.5s;
+}
+.famous-trip .card:hover{
+    box-shadow: 1px 2px 10px #9035f9;
+    transition: 0.5s;
+}
+ .famous-trip .card .upper{
+    position: absolute;
+    text-align: center;
+}
+
+/* Team Sec */
+.team .team-para{
+    background-image: linear-gradient(to right, #ff2f8b, #9035f9);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: sans-serif;
+}
+.team h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 50px;
+}
+.team hr{
+    text-align: center;
+    margin-left: 45%;
+    height: 5px;
+    width: 100px;
+    background-image: linear-gradient(to right, #ff2f8b, #9035f9);
+}
+
+
+
+/* newsletter */
+.news-bg{
+    background-image: url(../images/purple-bg.png);
+
+    height: 70vh;
+    background-position: center;
+}
+.news-bg .news-text{
+    margin-top: 100px;
+}
+.news-bg .news-text h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 60px;
+    color: white;
+}
+
+/* Fanny Spencer */
+.fanny h3{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 30px;
+}
+.fanny .fa-star{
+    color: #ffc107;
+}
+.fanny img{
+    height: 80px;
+    margin-left: 45%;
+    border: 2px solid #9035f9;
+    border-radius: 50px;
+}
+
+/* Blog */
+.blog .blog-para{
+    background-image: linear-gradient(to right, #ff2f8b, #9035f9);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: sans-serif;
+}
+.blog h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 50px;
+}
+.blog hr{
+    text-align: center;
+    margin-left: 45%;
+    height: 5px;
+    width: 100px;
+    background-image: linear-gradient(to right, #ff2f8b, #9035f9);
+}
+.blog .card .fa-calendar, .fa-heart-o{
+    margin-right: 5px;
+    color: #777777;
+}
+.blog .card span{
+    color: #777777;
+}
+.blog .card h5{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+}
+.blog .card p{
+    color: #777777;
+    margin-top: 20px;
+}
+.blog .card{
+    box-shadow: 1px 2px 2px #777777;
+    transition: 0.5s;
+}
+.blog .card:hover{
+    box-shadow: 1px 2px 10px #9035f9;
+    transition: 0.5s;
+}
+
+/* Footer */
+.footer .footer-bg{
+    background-color: #04091e;
+}
+.footer h5 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    color: white;
+}
+.footer p{
+    color:#999999;
+}
+.footer .letter-link a{
+    color: #999999;
+    text-decoration: none;
+}
+			
+.footer hr{
+    background-color: white;
+}
+.footer .icons{
+    font-size: 20px;
+    color: #999999;
+    
+}
